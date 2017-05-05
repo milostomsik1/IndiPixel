@@ -14,7 +14,11 @@
 
 <body>
 	<header>
-		<div class="green-stripe"></div>
+		<div class="green-bar">
+			<div class="green-stripe col-md-6 hidden-sm-down">
+				<img src="./img/green-stripes.png" alt="">
+			</div>
+		</div>
 		<nav class="d-flex align-items-center">
 			<div class="container">
 				<div class="row">
@@ -55,15 +59,15 @@
 					<label class="">Lets Talk</label>
 					<div class="row">
 						<div class="col-md-6 form-group">
-							<input class="form-control" id="" type="text" placeholder="First Name"/>
+							<input class="form-control" id="firstName" type="text" placeholder="First Name"/>
 						</div>
 						<div class="col-md-6 form-group">
-							<input class="form-control" id="" type="text" placeholder="Last Name"/>
+							<input class="form-control" id="lastName" type="text" placeholder="Last Name"/>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-6 form-group">
-							<input class="form-control" id="" type="text" placeholder="Email Address"/>
+							<input class="form-control" id="email" type="text" placeholder="Email Address"/>
 						</div>
 						<div class="col-md-6 form-group">
 							<select class="custom-select form-control">
@@ -76,7 +80,7 @@
 					</div>
 					<div class="row">
 						<div class="col-12 form-group">
-							<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+							<textarea class="form-control" id="inputQuery" rows="3">Type your query here</textarea>
 							<div class="d-flex justify-content-end">
 								<button class="btn btn-secondary text-uppercase"type="submit" name="">Send</button>
 							</div>
@@ -90,10 +94,10 @@
 	<footer class="d-flex align-items-center">
 		<div class="container">
 			<div class="row">
-				<div class="copyright col-md-6  d-flex">
+				<div class="copyright col-md-6  d-flex footer-margin">
 					<p>© 2015 indipixel design</p>
 				</div>
-				<div class="footer-contact col-md-6 d-flex justify-content-end">
+				<div class="footer-contact col-md-6 footer-margin">
 					<img src="./img/mail.png" alt=""><a href="mailto:#">contact@yourmail.com</a>
 				</div>
 			</div>
