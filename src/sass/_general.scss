@@ -1,0 +1,50 @@
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.nav-link {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+
+}
+
+//NAV
+.green-stripe {
+	height: 22px;
+	background-color: $brand-primary;
+}
+nav {
+	height: 78px;
+	background-color: $nav-red;
+	a {
+		border-bottom: 3px solid $yellow;
+	}
+}
+
+
+//BODY
+.bg-white {
+	background-color: $white
+}
+
+.bg-red {
+	background-color: $body-red;
+}
+
+.hero {
+	min-height: 582px;
+
+	.hero-text {
+		h2 {
+			font-size: 30px;
+		}
+		h3 {
+			font-size: 18px;
+		}
+		a {
+
+		}
+	}
+}
