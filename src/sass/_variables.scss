@@ -3,10 +3,21 @@ $nav-red: #e94643;
 $body-red: #ef5350;
 $white: #fff;
 $yellow: #fdd835;
+$footer-bg: #fefcf2;
+$footer-color: #636363;
+$input-border: #e3f2fd;
 
 // bootstrap override
 $font-family-sans-serif: Montserrat, Arial;
 $brand-primary: #04e4a2;
 $link-color: $white;
-$link-hover-color: $yellow;
+$link-hover-color: $white;
 $headings-color: $white;
+
+$btn-primary-color: $white;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $btn-primary-bg;
+
+$btn-secondary-color: $white;
+$btn-secondary-bg: $body-red;
+$btn-secondary-border: $btn-secondary-bg;
