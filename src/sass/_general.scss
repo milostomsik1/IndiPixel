@@ -123,23 +123,32 @@ hr {
 }
 
 footer {
-	height: 73px;
+	min-height: 73px;
 	background-color: $footer-bg;
 	color: $footer-color;
-	p {
-	margin-bottom: 0;
-}
-	a {
-		color: inherit;
-		&:hover {
+	.container {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		@media (max-width: 575px) {
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		p {
+			margin-bottom: 0;
+			&:first-of-type {
+				@media (max-width: 575px) {
+					margin-bottom: 10px;
+				}
+			}
+		}
+		a {
 			color: inherit;
+			&:hover {
+				color: inherit;
+			}
+		}
+		img {
+			margin-right: 10px;
 		}
 	}
-	img {
-		margin-right: 10px;
-	}
-}
-
-.footer-margin {
-	margin: 5px 0;
 }
